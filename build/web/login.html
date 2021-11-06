@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="views/login.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <div class="box">
+            <form action="MainController" method="POST">
+                <input type="text" name="txtUserID" value="" placeholder="Enter UserID" class="textf" /> <br/>
+                <input type="password" name="txtPassword"  value=""  placeholder="Enter Password" class="textf"/> <br/>
+                <input type="submit" value="Login" name="btnAction" class="btn" />
+                <input type="reset" value="Reset" class="btn"/>
+            </form>
+        </div>
+    </body>
+</html>
